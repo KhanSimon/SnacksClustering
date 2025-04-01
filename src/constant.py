@@ -1,0 +1,5 @@
+PATH_DATA = "../data/val"
+PATH_DATA2 = "../data/train"
+PATH_OUTPUT = "../output"
+CACHE_FILE = "features_cache.pkl"
+MODEL_CLUSTERING = "kmeans"
