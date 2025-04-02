@@ -2,7 +2,7 @@
 
 Alaeddine Cheniour et Simon Khan
 
-### Objectif : clusteriser des images de snacks par des méthodes d’apprentissage non supervisé
+### Objectif : clusteriser des images de snacks par des méthodes d’apprentissage non supervisé dans 20 clusters différents
 
 Voir le rapport pdf pour comprendre notre démarche et nos choix de descripteurs, métriques et modèles. 
 
@@ -28,6 +28,12 @@ Le dash board contient 2 onglets :
 
 - Un onglet permettant une visualisation des clusters dans un espace en 3 dimensions. Dans cet onglet, il est possible de sélectionner un cluster ou un point d’un cluster pour visionner les images correspondantes.
 - Un onglet permettant de consulter les métriques comme le score AMI, et si l’on a choisi le modèle KMeans : le score silouhette ou bien l’inertie en fonction de plusieurs valeurs de k.
+
+## Data : 
+
+Comme le montre l'image ci-dessous, les images à clusteriser présentent une grande variabilité visuelle et contextuelle, ce qui rend difficile leur regroupement automatique en classes cohérentes sans supervision. 
+
+![images.png](static/images.png)
 
 ## Résultats :
 
